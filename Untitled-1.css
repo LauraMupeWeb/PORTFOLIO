@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 227, 222);
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+#imagen {
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: darkslategray;
+    align-items: center;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+
+
+
+
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(78, 80, 80);
+    background-color: rgb(231, 227, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: auto;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px;
+}
+
+.boton {
+    display: flex;
+
+    background-color: #6c8ebf;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.boton:hover {
+    transform: scale(1.03);
+    background-color: #5579ca;
+}
+
+#proyectos {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(78, 80, 80);
+    background-color: rgb(231, 227, 222);
+    gap: 20px;
+
+
+}
+
+#proyectos h2 {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    color: rgb(78, 80, 80);
+    background-color: rgb(231, 227, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.proyecto {
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 5px gray;
+    transition: 0.3s;
+}
+
+.proyecto img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.proyecto:hover {
+    transform: scale(1.03);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(78, 80, 80);
+    background-color: rgb(231, 227, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 20px;
+    gap: 20px;
+}
